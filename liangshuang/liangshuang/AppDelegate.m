@@ -16,10 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    
+    //1.初始化窗口
+
+    //2.设置跟试图
+    
     // Override point for customization after application launch.
     
     NSLog(@"陈--添加--代码");
-    
+
     return YES;
 }
 
