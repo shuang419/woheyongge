@@ -16,8 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    //试试版本比之前低怎么合并
+    // Do any additional setup after loading the view, typically from a nib.
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, 100, 100)];
+    label.textColor = [UIColor whiteColor];
+    label.backgroundColor = [UIColor redColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
 
 }
 
