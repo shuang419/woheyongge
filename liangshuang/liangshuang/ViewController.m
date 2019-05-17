@@ -26,6 +26,7 @@
     label.backgroundColor = [UIColor redColor];
     label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
+    //小梁更改
 }
 
 
