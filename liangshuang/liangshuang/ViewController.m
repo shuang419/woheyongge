@@ -25,9 +25,7 @@
     label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
     //小梁更改
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+   
 }
 
 

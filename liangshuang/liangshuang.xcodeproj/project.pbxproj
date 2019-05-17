@@ -13,6 +13,7 @@
 		1806A5F1228E91D700D8A6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1806A5F0228E91D700D8A6E0 /* Assets.xcassets */; };
 		1806A5F4228E91D700D8A6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806A5F2228E91D700D8A6E0 /* LaunchScreen.storyboard */; };
 		1806A5F7228E91D700D8A6E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806A5F6228E91D700D8A6E0 /* main.m */; };
+		1806A5FF228EB64500D8A6E0 /* LSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806A5FE228EB64500D8A6E0 /* LSModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1806A5F3228E91D700D8A6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1806A5F5228E91D700D8A6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1806A5F6228E91D700D8A6E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1806A5FD228EB64500D8A6E0 /* LSModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSModel.h; sourceTree = "<group>"; };
+		1806A5FE228EB64500D8A6E0 /* LSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1806A5E8228E91CF00D8A6E0 /* AppDelegate.m */,
 				1806A5EA228E91CF00D8A6E0 /* ViewController.h */,
 				1806A5EB228E91CF00D8A6E0 /* ViewController.m */,
+				1806A5FD228EB64500D8A6E0 /* LSModel.h */,
+				1806A5FE228EB64500D8A6E0 /* LSModel.m */,
 				1806A5ED228E91D000D8A6E0 /* Main.storyboard */,
 				1806A5F0228E91D700D8A6E0 /* Assets.xcassets */,
 				1806A5F2228E91D700D8A6E0 /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1806A5FF228EB64500D8A6E0 /* LSModel.m in Sources */,
 				1806A5EC228E91CF00D8A6E0 /* ViewController.m in Sources */,
 				1806A5F7228E91D700D8A6E0 /* main.m in Sources */,
 				1806A5E9228E91CF00D8A6E0 /* AppDelegate.m in Sources */,
